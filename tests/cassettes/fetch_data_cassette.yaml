@@ -1,0 +1,13 @@
+interactions:
+- request:
+    body: {}
+    headers:
+      Content-Type: [application/json]
+    method: GET
+    uri: https://example.com/data
+  response:
+    body: {string: '{"key": "value"}'}
+    headers:
+      content-type: [application/json]
+    status: {code: 200, message: OK}
+version: 1
