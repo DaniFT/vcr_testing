@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "VCR Test",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "purpose": ["debug-test"],
+            "env": {
+                "ENV": "test"
+            },
+            "args": [
+                "tests/"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "pythonPath": "${workspaceFolder}/.venv/bin/python"
+        }
+    ]
+}
