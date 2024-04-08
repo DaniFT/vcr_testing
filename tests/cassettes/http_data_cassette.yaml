@@ -1,0 +1,42 @@
+interactions:
+- request:
+    body: '{"key": "value"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '16'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: POST
+    uri: https://example.com/data
+  response:
+    body:
+      string: "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!DOCTYPE html PUBLIC
+        \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n         \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n\t<head>\n\t\t<title>404
+        - Not Found</title>\n\t</head>\n\t<body>\n\t\t<h1>404 - Not Found</h1>\n\t\t<script
+        type=\"text/javascript\" src=\"//obj.ac.bcon.ecdns.net/ec_tpm_bcon.js\"></script>\n\t</body>\n</html>\n"
+    headers:
+      Cache-Control:
+      - max-age=604800
+      Content-Length:
+      - '433'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Mon, 08 Apr 2024 19:02:38 GMT
+      Expires:
+      - Mon, 15 Apr 2024 19:02:38 GMT
+      Server:
+      - EOS (vny/0451)
+    status:
+      code: 404
+      message: Not Found
+version: 1
